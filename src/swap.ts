@@ -1,9 +1,5 @@
-const data = [
-    'Ivan',
-    'Egor',
-    'Igor',
-    'Oleg',
-    'Nikolai',
+const dataA = [
+    
 ]
 
 function swap (list: Array<any>, l: number, r: number): Array<any> | void {
@@ -30,6 +26,14 @@ function swap (list: Array<any>, l: number, r: number): Array<any> | void {
 }
 
 console.log(
-    swap(data, 0, data.length - 1)
+    swap([
+        'Ivan',
+        'Egor',
+        'Igor',
+        'Oleg',
+        'Nikolai',
+    ],
+    0,
+    4)
 )
 
