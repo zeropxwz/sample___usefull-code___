@@ -3,7 +3,7 @@
 
 
 
-function lengthSort (list: Array<string>): Array<string> {
+function byLength (list: Array<string>): Array<string> {
 
     for (let i = 0; i < list.length; i++) {
         for (let j = 0; j < list.length - 1; j++) {
